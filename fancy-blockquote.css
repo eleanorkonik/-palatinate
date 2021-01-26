@@ -1,0 +1,36 @@
+# Block quote
+```css
+/* for editor */
+.cm-quote {
+    color: var(--text-normal) !important;
+}
+
+/* for preview */
+.markdown-preview-view blockquote {
+    border: 2px solid;
+    border-color: #8272d0 !important;
+    border-left-width: 2px !important;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* for citations */ 
+
+cite {
+	background-color: #8272d0;
+	color: white;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+	display: block;
+}
+
+cite a:link {
+	color: white;
+}

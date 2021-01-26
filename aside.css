@@ -1,0 +1,10 @@
+aside {
+    float: right;
+    border: 1px solid lightgrey;
+    padding: 8px;
+    position: relative;
+    left: 170px;
+    width: 155px;
+    box-shadow: 5px 8px #8272d0;
+    color: black;
+}
