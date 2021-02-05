@@ -14,6 +14,7 @@ The fonts I use are:
 * [Hastoler](https://www.dafont.com/hastoler.font)
 * [PT Sans](https://www.dafontfree.io/pt-sans-font-family/)
 * [Just Tell Me What](https://www.dafont.com/just-tell-me-what.font)
+* [KG A Little Spark](https://www.dafont.com/kg-a-little-spark.font) 
 
 Note that I really do like the default font, Inter, I only changed to PT Sans because Inter causes --> to become a ligature, which I personally feel makes html comments look weird. 
 
