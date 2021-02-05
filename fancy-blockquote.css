@@ -18,6 +18,25 @@
     padding-bottom: 10px;
 }
 
+.markdown-preview-view blockquote {
+    position: relative;
+}
+
+.markdown-preview-view blockquote:after {
+    content: '\201C';
+    position: absolute;
+    top: 0.30em;
+    left: -0.45em;
+    font-size: 6em;
+	color: #d9d4f0;
+}
+
+/* if paraphrasing, wrap your quote in <blockquote */
+
+.markdown-preview-view blockquote.paraphrase:after { 
+	display: none;
+}
+
 /* for citations */ 
 
 cite {
