@@ -2,7 +2,7 @@
 snippets of a theme for obsidian
 
 ![](palatinate.png)
-![](sample-note-edit-view.PNG)
+![](daily-note-right-align.png)
 
 Sometimes people ask me about the theme I'm using. With the caveat that this was not really developed for external use and I did not always write down the source of each snippet code, I do want to give back to the community by sharing. 
 
