@@ -1,37 +1,21 @@
-# -palatinate
-snippets of a theme for obsidian
+Palatinate is intended as a lightweight theme that adds features to the base theme but does not change its fundamental feel. It:
 
-![](palatinate.png)
-![](daily-note-right-align.png)
+* use of google fonts via the `@import` function so you don’t have to download any fonts. 
+* supports the `<cite>` tag, intended to be used in a Markdown friendly way at the end of a blockquote for ease of attribution. (See Also: this [stack overflow](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax) discussion). Note: For wikilinks to work inside the cite tag, you need a blank `>` blockquote line before the `> <cite> [[wikilink]]</cite>`.
+* disables ligatures for Inter in edit more so that `<!-- html comments -->` doesn’t look unbalanced. 
+* uses a monospaced font for `%% comments %%`
+* adds a cssclass for `longform` writing that enforces readable line width and a serif font. 
+* adds a cssclass for `dailynote` that aligns the heading to the right instead of the left. 
+* supports the `<aside>` tag, intended to allow text to flow around it instead of the tag being in the gutter. If you prefer your `<aside>` boxes to be in the gutter,  you’ll need to change the numbers yourself. 
+* adds a minor tweak to “fix” the alignment of the top bar. 
+* includes fancier blockquotes
+* provides icons for files and folders
+* prettifies the colors of the graph
+* improves upon the native `<hr>` bar. 
+* provides visually distinct headers (1-6) in a font that looks like my handwriting if I use a brush pen like in my bullet journal 
+* labels the footnotes section at the end. 
+* includes relationship lines for files and bullets that match the graph colors. 
 
-Sometimes people ask me about the theme I'm using. With the caveat that this was not really developed for external use and I did not always write down the source of each snippet code, I do want to give back to the community by sharing. 
+## Credits
 
-Many of these code snippets came courtesy of the ["How to achieve" CSS code snippets](https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474) forum thread maintained by Klaas or [Lithou's public sandbox](https://github.com/Lithou/Sandbox). The pretty heading fonts were inspired by [nami#4399 in the discord](https://discord.com/channels/686053708261228577/744933215063638183/791115987168526397). 
-
-The references-hack snippet was created by [radekkozak#7334 in the discord](https://discord.com/channels/686053708261228577/702656734631821413/798254712457265179).
-
-The fonts I use are:
-* [Hastoler](https://www.dafont.com/hastoler.font)
-* [PT Sans](https://www.dafontfree.io/pt-sans-font-family/)
-* [Just Tell Me What](https://www.dafont.com/just-tell-me-what.font)
-* [KG A Little Spark](https://www.dafont.com/kg-a-little-spark.font) 
-* [IcoMoon Ligature Font](https://icomoon.io/#icons-icomoon/liga-font)
-
-Note that I really do like the default font, Inter, I only changed to PT Sans because Inter causes --> to become a ligature, which I personally feel makes html comments look weird. 
-
-In case it comes up, my plugin list is:
-
-* advanted tables
-* better word count
-* calendar
-* dangling links
-* find unlinked files
-* maximize active pane
-* mind map
-* natural language dates
-* note refactor
-* obsidian git
-* paste url into selection
-* recent files
-* shuffle
-* templater
+Thanks @death_au, @silver, @foreveryone, @slrvb, @chetachi, @klaas and everyone else in the Obsidian Discord who helped me put this together over the last few months! 
