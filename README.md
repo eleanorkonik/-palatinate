@@ -20,6 +20,8 @@ It:
 * labels the footnotes section at the end. 
 * includes relationship lines for files and bullets that match the graph colors. 
 
+Snippets are provided in the repo if you’d rather just swipe a snippet, but note: the snippets are deprecated and use old fonts & styles. 
+
 ## Credits
 
 Thanks @death_au, @silver, @foreveryone, @slrvb, @chetachi, @klaas and everyone else in the Obsidian Discord who helped me put this together over the last few months! 
