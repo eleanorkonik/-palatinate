@@ -1,4 +1,8 @@
-Palatinate is intended as a lightweight theme that adds features to the base theme but does not change its fundamental feel. It:
+Palatinate is intended as a lightweight theme that adds features to the base theme but does not change its fundamental feel. 
+
+![palatinate.png]
+
+It:
 
 * use of google fonts via the `@import` function so you don’t have to download any fonts. 
 * supports the `<cite>` tag, intended to be used in a Markdown friendly way at the end of a blockquote for ease of attribution. (See Also: this [stack overflow](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax) discussion). Note: For wikilinks to work inside the cite tag, you need a blank `>` blockquote line before the `> <cite> [[wikilink]]</cite>`.
