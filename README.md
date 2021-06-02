@@ -1,6 +1,6 @@
 Palatinate is intended as a lightweight theme that adds features to the base theme but does not change its fundamental feel. 
 
-![palatinate.png]
+![](https://github.com/eleanorkonik/-palatinate/blob/main/palatinate.png)
 
 It:
 
