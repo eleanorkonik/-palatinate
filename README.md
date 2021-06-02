@@ -1,4 +1,4 @@
-Palatinate is intended as a lightweight theme, suitable for either light or dark mode, that adds features to the base theme but does not change its fundamental feel. 
+Palatinate is intended as a lightweight theme, suitable for either light (right side in img) or dark (left side in img) mode, that adds features to the base theme but does not change its fundamental feel. 
 
 ![](https://github.com/eleanorkonik/-palatinate/blob/main/palatinate.png)
 
