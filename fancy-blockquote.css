@@ -31,7 +31,7 @@
 	color: #d9d4f0;
 }
 
-/* if paraphrasing, wrap your quote in <blockquote */
+/* if paraphrasing, wrap your quote in <blockquote class=paraphrase>text</blockquote> */
 
 .markdown-preview-view blockquote.paraphrase:after { 
 	display: none;
