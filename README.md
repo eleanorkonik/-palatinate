@@ -4,7 +4,7 @@ Palatinate is intended as a lightweight theme, suitable for either light (right 
 
 It:
 
-* use of google fonts via the `@import` function so you don’t have to download any fonts. 
+* uses google fonts via the `@import` function so you don’t have to download any fonts. 
 * supports the `<cite>` tag, intended to be used in a Markdown friendly way at the end of a blockquote for ease of attribution. (See Also: this [stack overflow](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax) discussion). Note: For wikilinks to work inside the cite tag, you need a blank `>` blockquote line before the `> <cite> [[wikilink]]</cite>`.
 * disables ligatures for Inter in edit more so that `<!-- html comments -->` doesn’t look unbalanced. 
 * uses a monospaced font for `%% comments %%`
@@ -19,9 +19,10 @@ It:
 * provides visually distinct headers (1-6) in a font that looks like my handwriting if I use a brush pen like in my bullet journal 
 * labels the footnotes section at the end. 
 * includes relationship lines for files and bullets that match the graph colors. 
+* the `- [?]` block matches the default green of the admonition plugin’s `ad-question` block. 
 
 Snippets are provided in the repo if you’d rather just swipe a snippet, but note: the snippets are deprecated and use old fonts & styles. 
 
 ## Credits
 
-Thanks @death_au, @silver, @foreveryone, @slrvb, @chetachi, @klaas and everyone else in the Obsidian Discord who helped me put this together over the last few months! 
+Thanks @death_au, @silver, @foreveryone, @slrvb, @chetachi, @klaas and everyone else in the Obsidian Discord who helped me put this together either directly or by providing code for me to build off of over the last few months! 
