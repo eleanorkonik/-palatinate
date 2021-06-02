@@ -4,7 +4,7 @@ Palatinate is intended as a lightweight theme, suitable for either light (right 
 
 It:
 
-* uses google fonts via the `@import` function so you don’t have to download any fonts. 
+* does not require users to download any fonts. 
 * supports the `<cite>` tag, intended to be used in a Markdown friendly way at the end of a blockquote for ease of attribution. (See Also: this [stack overflow](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax) discussion). Note: For wikilinks to work inside the cite tag, you need a blank `>` blockquote line before the `> <cite> [[wikilink]]</cite>`.
 * disables ligatures for Inter in edit more so that `<!-- html comments -->` doesn’t look unbalanced. 
 * uses a monospaced font for `%% comments %%`
