@@ -20,6 +20,7 @@ It:
 * labels the footnotes section at the end. 
 * includes relationship lines for files and bullets that match the graph colors. 
 * the `- [?]` block matches the default green of the admonition plugin’s `ad-question` block. 
+* adds background color to differentiate between dataview table rows
 
 Snippets are provided in the repo if you’d rather just swipe a snippet, but note: the snippets are deprecated and use old fonts & styles. 
 
