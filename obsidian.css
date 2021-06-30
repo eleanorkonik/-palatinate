@@ -64,7 +64,7 @@
 --altaccent2-middle: #ad3fc9;
 --altaccent-light: #BFDEFF; 
 --altaccent-lighter: #E3E5E8; 
-
+--infobox-header: #F2EDFF;
 --header-font: 'Caveat Brush'; 
 }
 
@@ -386,6 +386,39 @@ li {
   padding-left: 5px;
   border-left: 1px solid var(--altaccent-light);
 }
+
+/* fake admonition stuff, thank you @SlRvb */
+
+.sourcenote h6 {
+  padding-left: 30px;
+  background-color: var(--infobox-header);
+  margin-bottom: 0;
+  border-left: 3px solid var(--accent-middle);
+  padding: 10px;
+  font-family: Inter;
+  font-size: 1em
+}
+
+.sourcenote h6:before {
+  content: "📜";
+  align: right;
+  padding-right: 10px;
+}
+
+.sourcenote ul:not(ul ul) {
+  background-color: var(--background-primary-alt);
+  padding: 20px;
+  margin-block-start: 0;
+  border-left: 3px solid var(--accent-middle);
+}
+.sourcenote ul li {
+  margin-left: 20px;
+  border-left: 0px solid var(--altaccent-light);
+}
+.sourcenote ul ul {
+  margin-left: -20px;
+}
+
 
 /* Notation checkboxes */
 .markdown-preview-view .task-list-item-checkbox {
