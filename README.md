@@ -1,4 +1,4 @@
-**This theme is out of date. Please consider checking out [Sanctum](https://github.com/jdanielmourao/obsidian-sanctum) which is actively maintained and has complete feature parity.**
+**This theme is out of date. Please consider checking out [Sanctum](https://github.com/jdanielmourao/obsidian-sanctum) which is actively maintained and has all the features of Palatinate and then some.**
 
 
 Palatinate is intended as a lightweight theme, suitable for either light (right side in img) or dark (left side in img) mode, that adds features to the base theme but does not change its fundamental feel. 
